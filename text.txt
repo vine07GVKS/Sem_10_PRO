@@ -18,3 +18,5 @@ GIT COMMIT STEP
 7. git commit -m "update : git rule " 
 8. git push 
 9. git pull 
+10. git status => to check what are the file are not updated or not 
+11. 
