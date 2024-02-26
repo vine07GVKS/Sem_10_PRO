@@ -12,3 +12,9 @@ GIT COMMIT STEP
 1. git config --global user.name "vine07GVKS"
 2. git config --global user.email "vinethjawa2001@gmail.com"
 3. git clone git@github.com:vine07GVKS/Sem_10_PRO.git   // ----------- repo link in git web site 
+4. go to the proper folder to updating location using the  : cd .\ 
+5. git commit -m "feat : git rule "
+6. git add .\text.txt // ------------ add to the specific folder for git 
+7. git commit -m "update : git rule " 
+8. git push 
+9. git pull 
