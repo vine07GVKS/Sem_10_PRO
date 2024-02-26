@@ -1,4 +1,13 @@
 I'm VINETH 
+
+conventionalcommits.org
+1. fix : fix means any promblem in old code you will be fixed to update the code to use the fix key word 
+2. FEAT: in case you added any new feature means use the key word " FEAT"
+3. REFACTOR: if you're refactoring something like changing a valid variable name you can use refactor: message
+4. DOC : If you're writing some documentation then you can mention it as doc : message
+5. CHORE : If you're doing some unimportant work then you can mention it as chore: message
+6. !FIX : If you're making some changes that will affect other people then mention it with an exclamatory mark which means a breaking change 
+
 GIT COMMIT STEP 
 1. git config --global user.name "vine07GVKS"
 2. git config --global user.email "vinethjawa2001@gmail.com"
