@@ -8,3 +8,35 @@ form.forEach((items,i)=>{
     }, i*100);
 
 })
+
+ // form validation 
+
+ const name = document.querySelector('.name') || null;
+ const email = document.querySelector('.email');
+ const password = document.querySelector('.password'); 
+ const submitBtn = document.querySelector('.submit-btn');
+ 
+ if(name == null){ // means login page is open 
+
+ } else{ // means register page is open 
+
+    submitBtn.addEventListener('click',()=>{
+        fetch('/register-user',{
+            method:'post',
+            headers:new Hearder({'Content-Type': 'application/json'}),
+            body: JSON.stringify({
+                name:name.value,
+                email:email.value,
+                password:password.value
+            })
+        })
+        .then(res => res.json())
+        .then(data => {
+            if(data.name){
+                alert('register sucessful')
+            } else{
+                alert(data)
+            }
+        })
+    })
+ }
