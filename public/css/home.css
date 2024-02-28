@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#00d0ff, #f44a4a);
+    background: linear-gradient(#00d0ff, #fb5d5d);
     background-size: cover;
     background-position: center;
     font-family: 'robot', sans-serif;
@@ -20,12 +20,19 @@ body{
 
 .container{
     position: relative;
-    width: 90%;
-    height: 87vh;
+    width: 30%;
+    height: 45vh;
     border: 5px solid white;
+   background-color: rgb(252, 231, 213);
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items:center;
+}
+
+.card-img-top{
+width: 300px;
+height: 200px;
 }
 
 .logout{
